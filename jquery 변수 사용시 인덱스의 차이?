@@ -8,7 +8,7 @@ function testFunc(target) {
   console.log( btn );
     // 출력내용
     ▶ [button.btn, context: button.btn]
-      *펼치내용
+      *펼친내용
       ▼ m.fn.init[1]
         ▶ 0: button.btn
         ▶ context: button.btn
@@ -23,7 +23,7 @@ function testFunc(target) {
   console.log( $(btn) );
     // 출력내용
     ▶ [button.btn, context: button.btn]
-      *펼치내용
+      *펼내용
       ▼ m.fn.init[1]
         ▶ 0: button.btn
         ▶ context: button.btn
