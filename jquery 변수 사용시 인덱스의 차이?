@@ -1,0 +1,37 @@
+$('.btn').on('click', function(){
+	testFunc(this);
+});
+
+function testFunc(target) {
+  var btn = $(target);
+
+  console.log( btn );
+    // 출력내용
+    ▶ [button.btn, context: button.btn]
+      *펼치내용
+      ▼ m.fn.init[1]
+        ▶ 0: button.btn
+        ▶ context: button.btn
+          length: 1
+        ▶ __proto__: Object[0]
+
+  
+  console.log( btn[0] );
+    // 출력내용
+    <button type="button" class="btn">…</button>
+  
+  console.log( $(btn) );
+    // 출력내용
+    ▶ [button.btn, context: button.btn]
+      *펼치내용
+      ▼ m.fn.init[1]
+        ▶ 0: button.btn
+        ▶ context: button.btn
+          length: 1
+        ▶ __proto__: Object[0]
+        
+  console.log( $(btn)[0] );
+    // 출력내용
+    <button type="button" class="btn">…</button>
+  
+};
