@@ -141,3 +141,26 @@ reference ::
 
 required ::
 optional ::
+로컬에 존재하는 브랜치가 리모트의 특정 브랜치를 추적하게 하려면 git branch 명령에 -u나 --set-upstream-to 옵션을 붙여서 아래와 같이 설정.
+	git branch -u origin/serverfix
+
+Upstream ::
+	Upstream 별명
+	추적 브랜치를 설정했다면 추적 브랜치를 @{upstream}이나 @{u}로 짧게 대체하여 사용할 수 있다. 
+	master 브랜치가 origin/master 브랜치를 추적하는 경우라면 git merge origin/master 명령과 git merge @{u} 명령을 똑같이 사용할 수 있다.
+
+ahead ::
+behind ::
+
+리모트 브랜치를 삭제
+	예) serverfix라는 리모트 브랜치를 삭제
+		git push origin --delete serverfix
+
+Rebase ::
+	Git에서 한 브랜치에서 다른 브랜치로 합치는 방법으로는 두 가지가 있다. 하나는 Merge 이고 다른 하나는 Rebase 다. 
+	Rebase를 하든지, Merge를 하든지 최종 결과물은 같고 커밋 히스토리만 다르다는 것이 중요하다. 
+	Rebase 의 경우는 브랜치의 변경사항을 순서대로 다른 브랜치에 적용하면서 합치고 Merge 의 경우는 두 브랜치의 최종결과만을 가지고 합친다.
+
+command ::
+Fast-forward ::
+force  ::
