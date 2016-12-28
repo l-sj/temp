@@ -116,3 +116,28 @@ Lightweight ::
 Annotated ::
 Privacy ::
 Guard ::
+Tagger ::
+BEGIN PGP SIGNATURE ::
+experiment ::
+Keyring ::
+verify ::
+Compressing ::
+Counting ::
+Writing ::
+Bash ::
+Auto-completion ::
+Alias ::
+current ::
+
+Git은 데이터를 Change Set이나 변경사항(Diff)으로 기록하지 않고 일련의 스냅샷으로 기록한다는 것
+Git은 HEAD라는 특수한 포인터가 있다. 이 포인터는 지금 작업하는 로컬 브랜치를 가리킨다.
+
+decorate ::
+Production ::
+strategy ::
+Conflict ::
+Workflow ::
+reference ::
+
+required ::
+optional ::
