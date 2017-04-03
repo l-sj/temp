@@ -1,0 +1,33 @@
+"*":
+  core:
+    automaticallyUpdate: false
+    disabledPackages: [
+      "wrap-guide"
+      "linter-htmlhint"
+      "linter-scss-lint"
+      "linter-jshint"
+      "jshint"
+    ]
+    telemetryConsent: "no"
+  editor:
+    invisibles: {}
+    scrollPastEnd: true
+    showIndentGuide: true
+    showInvisibles: true
+    softWrap: true
+    tabLength: 4
+    tabType: "soft"
+  "exception-reporting":
+    userId: "2696f557-2173-ad64-e049-0d73ee08de01"
+  "linter-sass-lint": {}
+  "linter-scss-lint": {}
+  minimap:
+    absoluteMode: true
+  "sync-settings":
+    _analyticsUserId: "286736a7-d81f-4452-95e7-01cbc8d25eab"
+    _lastBackupHash: "08f058a3d93cfa3fc7a101847f1a665f1100dc4e"
+    gistId: "d83ad3f5750dad223185e99c65c6db11"
+    personalAccessToken: "5fe3e912d9f6a6fa997a5f3804b1abdccda5ebb5 "
+    quietUpdateCheck: true
+  welcome:
+    showOnStartup: false
